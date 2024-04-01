@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Room-Based Chat</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="roomHeader">Room Name</h1>
+
+    <!-- Room and username input -->
+    <label for="roomInput">Room:</label>
+    <input type="text" id="roomInput" placeholder="Enter room name" />
+    <br />
+    <label for="usernameInput">Username:</label>
+    <input type="text" id="usernameInput" placeholder="Enter username" />
+    <br />
+    <button id="joinBtn">Join Room</button>
+
+    <hr />
+
+    <!-- Chat messages display and input -->
+    <div id="chatMessages"></div>
+    <input type="text" id="messageInput" placeholder="Type your message..." />
+    <button id="sendBtn">Send</button>
+
+    <!-- Link to external JavaScript file -->
+    <script src="client.js"></script>
+  </body>
+</html>

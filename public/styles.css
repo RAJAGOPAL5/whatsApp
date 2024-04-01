@@ -1,0 +1,25 @@
+/* Styles for sender (own) messages */
+.senderMessage {
+  align-self: flex-end;
+  background-color: #075e54; /* WhatsApp green color */
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 4px;
+  max-width: 70%;
+  word-wrap: break-word;
+  text-align: right; /* Align text to the right */
+}
+
+/* Styles for receiver (other) messages */
+.receiverMessage {
+  align-self: flex-start;
+  background-color: #dcf8c6; /* Light green color */
+  color: #000;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 4px;
+  max-width: 70%;
+  word-wrap: break-word;
+  text-align: left; /* Align text to the left */
+}
